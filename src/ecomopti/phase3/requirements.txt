@@ -1,0 +1,22 @@
+# Phase 3 Runtime Dependencies (pinned for reproducibility)
+pandas==2.1.3
+numpy==1.26.2
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# Causal inference libraries
+econml==0.15.0
+causalml==0.15.0
+
+# pydantic v2 with settings management
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Hyperparameter tuning
+optuna==3.4.0
+
+# Visualization
+matplotlib==3.8.2
+
+# Testing
+pytest==7.4.3

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecomopti"
+version = "0.1.0"
+description = "EcomOpti retention + uplift pipeline"
+authors = [{ name="Your Name", email="you@example.com" }]
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "lifelines>=0.28",
+  "matplotlib",
+  "joblib",
+  "pyyaml",
+  "pandera",
+  "scikit-survival"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "flake8"]

@@ -1,0 +1,17 @@
+services:
+  ecomopti-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecomopti-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - D:/myproject/ecomopti/data:/app/data
+      - D:/myproject/ecomopti/artifacts:/app/artifacts
+      - D:/myproject/ecomopti/models:/app/models
+      - D:/myproject/ecomopti/plots:/app/plots
+      - D:/myproject/ecomopti/reports:/app/reports
+      - D:/myproject/ecomopti/logs:/app/logs
+    environment:
+      - PYTHONPATH=/app/src
