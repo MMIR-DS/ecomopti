@@ -1,5 +1,5 @@
 # Phase 6 Runtime Dependencies (pinned for reproducibility)
-dash==2.14.1
+dash==2.15.0
 dash-bootstrap-components==1.5.0
 plotly==5.15.0
 
