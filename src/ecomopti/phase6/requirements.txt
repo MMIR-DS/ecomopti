@@ -9,7 +9,7 @@ numpy==1.26.2
 scipy==1.11.4
 
 # API Communication
-requests==2.31.0
+requests==2.32.4
 
 # Production Server
 gunicorn==21.2.0
